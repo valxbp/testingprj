@@ -1,0 +1,96 @@
+/*external css = have to create only one file but u can apply those CSS to 
+all relate pages without writing the same as several times*/
+
+.navbar{
+	background: black;
+	height: 10vh;
+}
+.banner,.card-section{
+	background: blue;
+	height: 60vh;
+}
+.card-section{
+	background: lightgreen;
+	display: flex;
+	justify-content: space-between; /*horizontally space*/
+	align-items: center;/* vertically space*/
+}
+.child{
+	width: 30%;
+	height: 40vh;
+	border: 3px solid white;
+}
+.channel{
+	width: 100%;
+	height: 100vh;
+	background: sliver;
+	display: flex;
+}
+.btngp{
+	width: 20%;
+	border: 1px solid red;
+}
+.viewsection{
+	width: 80%;
+	border: 1px solid red;
+}
+.btn{
+	/*width: 150px;
+	height: 150px;
+	border-radius: 75px;*/
+	width: 50%;
+	height: 5vh;
+	border-radius: 50%;
+}
+.footer{
+	display: flex;
+	height: 30vh;
+	justify-content: space-around;
+	background: linear-gradient(45deg,lightgreen,lightblue);
+}
+.socialmedia,.contact,.map{
+	width: 30%;
+}
+#nav ul li {
+	float: left;
+    list-style: none;  /*	to remove bullet style*/
+    margin: 0 5px; /*	top&bottom left&right*/
+    
+}
+#nav ul li a{
+	color:white;
+    font-size: 25px;
+/*    (lowest 0 , highest 1)*/
+    opacity: 0.3;
+    text-decoration: none; /*    remove underline*/
+}
+/*psuedo element(Element:hover)*/
+#nav ul li a:hover{
+	opacity: 1;
+	cursor:pointer;
+/*	color: red;*/
+	font-weight: bold;
+/*	text-shadow: x y blur color;*/
+	text-shadow: 2px 3px 3px blue;
+/*	background: white;*/
+}
+/*#nav ul li:hover{
+	background: white;
+	width: 20%;
+	height: 5vh;
+}*/
+
+body{
+	margin: 0; /*t r b l*/
+}
+#nav{
+	overflow: hidden;
+}
+
+div.banner{
+/*	background: ;*/
+   background-image:url('daliaflower.jpg') ;
+   background-size:100% 100%; /*x y*/
+/*   background-repeat: no-repeat;*/
+}
+
